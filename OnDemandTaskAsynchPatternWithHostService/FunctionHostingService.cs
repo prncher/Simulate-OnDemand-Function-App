@@ -102,8 +102,8 @@ namespace OnDemandTaskAsynchPatternWithHostService
                 }
             });
 
-            Console.WriteLine("StartBankGroundTasks Thread is existing," +
-                "but still waiting for other tasks to add and then waiting for " +
+            Console.WriteLine("Exit StartBankGroundTasks," +
+                "but waiting for other tasks to be added and then waiting for " +
                 "that tasks to complete");
         }
         /*
